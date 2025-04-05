@@ -1,0 +1,88 @@
+/* video-container Styling */
+.video-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa8c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease;
+  }
+  
+  /* Form Heading */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    animation: slideIn 1s ease;
+  }
+  
+  /* Form Elements */
+  .form-label {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  input[type="file"],
+  input[type="text"] {
+    border-radius: 8px;
+    padding: 10px;
+    transition: all 0.3s;
+  }
+  
+  input[type="file"]:hover,
+  input[type="text"]:hover {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Submit Button */
+  .btn-danger {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .btn-danger:hover {
+    background-color: #0056b3;
+    
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Animation Keyframes */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .user-logout{
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .user{
+    flex: 1;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .user-logout .btn{
+    flex: 1;
+  }

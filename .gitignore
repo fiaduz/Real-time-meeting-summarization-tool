@@ -1,0 +1,11 @@
+# React dependencies
+project/node_modules/
+
+# Django cache and compiled files
+**/__pycache__/
+*.pyc
+
+# Django database
+project_backend/db.sqlite3
+
+

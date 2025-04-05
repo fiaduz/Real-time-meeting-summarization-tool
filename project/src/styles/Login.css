@@ -1,0 +1,55 @@
+.hero, .hero-sup{
+    padding: 20px;
+    
+    
+}
+form {
+    text-align: left;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    background-color: #0000003b; 
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+.hero-sup form {
+    display: flex;
+    flex-direction: column;
+    background-color: #6c7ecc41; 
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.hero h2, .hero-sup h2 {
+    margin-bottom: 20px;
+    /* color: #ddd; */
+    text-align: center;
+    
+    
+}
+
+input[type="text"],[type="password"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #1facbc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+
+button{
+    border-radius: 50px;
+    margin-top: 10px;
+}
